@@ -1,17 +1,17 @@
 //--------------------------------------------------------------------
-// HigherLower.java         by Dale/Joyce/Weems              Chapter 6
+// InBetween.java         by Dale/Joyce/Weems              Chapter 6
 //
 // Plays Higher or Lower? with user through command line interface. 
 //--------------------------------------------------------------------
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class HigherLower 
+public class InBetween 
 {
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Welcome to HigherLower! Here are the rules of the game: ");
+        System.out.println("Welcome to In Between! Here are the rules of the game: ");
         System.out.println();
         System.out.println("You start with a certain amount of money.\nYou must risk an amount of money each round before seeing any cards\nAs long as there are still 3 cards or more in the deck (enough for a hand) the game continues\nTwo cards will be dealt face up, and one face down.\nIf the two cards are the same, the player automatically wins.\nIf the two cards are 1 apart, the player automatically loses. ");
         System.out.println("You then guess if the 3rd card is inside or outside of the 2 cards.\nIf you guess correctly, you win the round and the bet");
